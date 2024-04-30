@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family:'Courier New', Courier, monospace
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    color:#3b92ff
+}
+.makingTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #115fd3d5;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 15px;
+    height: 12vh;
+}
+ input{
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    caret-color: #3b92ff;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.makingTask button{
+    position: absolute;
+    right: 21%;
+    font-size: 20px;
+    color: #3b92ff;
+    padding: 5px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: bold;
+}
+.list{
+    margin: 15px;
+    padding: 15px;
+}
+ul li{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-left: 4px solid #0856cf;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+ul li span{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    font-size: 20px;
+    color: #3b92ff;
+    padding: 8px;
+    border-radius: 8px;
+    border: 0;
+    outline: none;
+}
+.marked{
+    background-color: #0856cf;
+    color: #0856cf;
+}

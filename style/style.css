@@ -18,7 +18,7 @@ h1{
     border-radius: 8px;
     margin: 15px;
     padding: 15px;
-    height: 12vh;
+    height: 13vh;
 }
  input{
     height: 40px;
@@ -32,7 +32,7 @@ h1{
 }
 .makingTask button{
     position: absolute;
-    right: 20%;
+    right: 19%;
     font-size: 20px;
     color: #3b92ff;
     padding: 5px;
@@ -45,13 +45,13 @@ h1{
     padding: 15px;
 }
 ul li{
-    font-size: 22px;
+    font-size: 21px;
     font-weight: bold;
     text-transform: capitalize;
     border-left: 4px solid #0856cf;
     border-radius: 8px;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 13px;
+    margin-top: 18px;
     background-color: #eee;
     position: relative;
     overflow: hidden;
